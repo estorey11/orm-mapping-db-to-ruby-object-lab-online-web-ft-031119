@@ -100,7 +100,6 @@ class Student
     SQL
 
     self.new_from_db(DB[:conn].execute(sql)[0])
-    end
   end
   
   def self.all_students_in_grade_X(x)
